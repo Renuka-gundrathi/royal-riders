@@ -1,0 +1,75 @@
+body{
+font-family: Arial, sans-serif;
+text-align: center;
+background-image: url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+background-size: cover;
+background-position: center;
+color: white;
+}
+
+/* Title */
+h1{
+color: yellow;
+font-size: 40px;
+text-shadow: 2px 2px 5px black;
+}
+
+/* Bike container */
+.bike-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+/* Bike cards */
+.bike-card{
+background: rgba(0,0,0,0.7);
+padding: 15px;
+margin: 15px;
+border-radius: 12px;
+box-shadow: 0 0 15px black;
+width: 230px;
+color: white;
+transition: transform 0.3s;
+}
+
+/* Hover effect */
+.bike-card:hover{
+transform: scale(1.05);
+}
+
+/* Bike images */
+.bike-card img{
+width: 100%;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+/* Button style */
+button{
+background: linear-gradient(red, darkred);
+color: white;
+padding: 8px 15px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+}
+
+/* Button hover */
+button:hover{
+background: linear-gradient(orange, red);
+}
+
+/* Special offer section */
+.special{
+background: linear-gradient(gold, orange);
+padding: 20px;
+margin: 30px;
+border-radius: 12px;
+color: black;
+font-size: 18px;
+font-weight: bold;
+box-shadow: 0 0 15px black;
+}
